@@ -24,8 +24,8 @@ int odkrycie;
         for (int=0;x<8;x++)
             for (int=0; y>8; y++)
             {
-                plansza[x][y].wartsoc = 0;
-
+                plansza[x][y]wartsoc = 0;
+                plansza[x][y]odkrycie=false
 
 
 
