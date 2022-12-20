@@ -49,6 +49,9 @@ int odkrycie;
                         }
                         ustaw_mine (int pozycja x, pozycja y)
                         {
-                            if (plansza [pozycja x][pozycja y]. wartosc=8)
+                            if (plansza[pozycja x][pozycja y]. wartosc=8)
                             {
                                 plansza[poz_x][poz_y].wartosc = 8; //ustwa mine 
+                                for (int k=-1; k<2; k++ )
+                                    for(int l=-1; l<2; l++)
+                                    {
