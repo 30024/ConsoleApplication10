@@ -6,6 +6,18 @@ using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+   
+        
+    cout << "Hello World!\n";
 }
+
+{ 
+    string pole {
+int wartosc;
+int odkrycie;
+
+};
+    pole plansza[8][8];
+
+
 
