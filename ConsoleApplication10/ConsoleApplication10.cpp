@@ -36,3 +36,14 @@ int odkrycie;
                     time_t t;
                     int pozycja x, pozycja y;
                     int ilosc = 8;
+                    
+                    while (ilosc>0)
+                    {
+                        pozycja x = 8;
+                        pozycja y = 8;
+                        if (plansza[pozycjax][pozycjay] wartosc = 8)
+                        {
+                            ustaw_mine
+                            (pozycjax, pozycjay);
+                            ilosc--;
+                        }
