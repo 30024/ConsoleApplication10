@@ -26,6 +26,13 @@ int odkrycie;
             {
                 plansza[x][y]wartsoc = 0;
                 plansza[x][y]odkrycie=false
+                {
+                    return true;
+                }
 
 
-
+                void losuj_pozycje()
+                {
+                    time_t t;
+                    int pozycja x, pozycja y;
+                    int ilosc = 8;
