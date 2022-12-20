@@ -57,3 +57,5 @@ int main()
                                     {
                                         if (poz_x+1)<0 (poz_y+k)<0 //wyjdz po krawedz
                                         if (poz_x+1)>0 (poz_y+k)>0 //wyjdz po krawedz
+                                        { 
+
