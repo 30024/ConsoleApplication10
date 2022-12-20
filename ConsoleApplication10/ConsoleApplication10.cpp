@@ -8,13 +8,13 @@ int main()
 {
    
         
-    cout << "Hello World!\n";
+   cout << "Hello World!\n";
 }
 
 { 
-    string pole {
-int wartosc;
-int odkrycie;
+  string pole {
+ int wartosc;
+ int odkrycie;
 
 };
     pole plansza[8][8];
@@ -55,3 +55,5 @@ int odkrycie;
                                 for (int k=-1; k<2; k++ )
                                     for(int l=-1; l<2; l++)
                                     {
+                                        if (poz_x+1)<0 (poz_y+k)<0 //wyjdz po krawedz
+                                        if (poz_x+1)>0 (poz_y+k)>0 //wyjdz po krawedz
